@@ -1,2 +1,1 @@
-#https://github.com/dm1triss/Aveji
-Gh.pages:
+Страница на GH.Pages: https://dm1triss.github.io/Aveji/
