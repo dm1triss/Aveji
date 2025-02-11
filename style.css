@@ -1,9 +1,3 @@
-:root {
-  --regular: "regular", sans-serif;
-  --bold: "bold", sans-serif;
-  --medium: "medium", sans-serif;
-}
-
 .header {
   margin-block-start: clamp(0.5625rem, 0.4745rem + 0.3756vw, 0.8125rem);
   margin-inline-start: clamp(1.0625rem, 0.6884rem + 1.5962vw, 2.125rem);
@@ -93,8 +87,6 @@
   color: black;
   text-decoration: none;
   font-size: 18px;
-  font-family: var(--regular);
-  font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -128,7 +120,6 @@
   .menu ul li a {
     color: black;
     font-size: 18px;
-    font-family: var(--regular);
   }
 
   .close-btn {
@@ -151,8 +142,6 @@
 }
 
 .buy__title {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: clamp(2rem, 1.1197rem + 3.7559vw, 4.5rem);
   line-height: 1.2;
   text-transform: uppercase;
@@ -160,16 +149,12 @@
 }
 
 .buy__subtitle {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: clamp(1rem, 0.912rem + 0.3756vw, 1.25rem);
   line-height: 1.4;
   color: #212529;
 }
 
 .buy__link {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: 18px;
   margin-block-end: 5px;
   padding-block-end: 3px;
@@ -189,7 +174,7 @@
   background-color: black;
 }
 
-.mebel__img {
+.buy-mebel__img {
   width: 96%;
   height: clamp(16.1875rem, 4.0836rem + 51.6432vw, 50.5625rem);
   object-fit: cover;
@@ -272,8 +257,6 @@
 }
 
 .ci__title {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: 28px;
   color: #212529;
   padding-block-end: 20px;
@@ -281,8 +264,6 @@
 
 .ci__title--desktop {
   display: none;
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: clamp(1.75rem, 1.3099rem + 1.8779vw, 3rem);
   color: #212529;
 }
@@ -295,9 +276,6 @@
 }
 
 .ci__text {
-  font-family: var(--regular);
-  font-weight: 400;
-  font-size: 16px;
   padding-inline-end: 11%;
   line-height: 1.4;
   color: #212529;
@@ -310,16 +288,11 @@
 }
 
 .talon__title {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: clamp(1.5rem, 1.2359rem + 1.1268vw, 2.25rem);
   color: #212529;
 }
 
 .talon__text {
-  font-family: var(--regular);
-  font-weight: 400;
-  font-size: 16px;
   padding-inline-end: 200px;
   line-height: 1.4;
   color: #212529;
@@ -386,16 +359,11 @@
 }
 
 .workflow__title {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: clamp(1.75rem, 1.3099rem + 1.8779vw, 3rem);
   color: #212529;
 }
 
 .workflow__text {
-  font-family: var(--regular);
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.4;
   color: #212529;
 }
@@ -428,16 +396,11 @@
 }
 
 .workflow__item-title {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: clamp(1.5rem, 1.2359rem + 1.1268vw, 2.25rem);
   color: #212529;
 }
 
 .workflow__item-subtitle {
-  font-family: var(--regular);
-  font-weight: 400;
-  font-size: 16px;
   padding-inline-end: 12px;
   line-height: 1.4;
   color: #212529;
@@ -480,8 +443,6 @@
   margin-inline-start: 5px;
 }
 .projects__title {
-  font-family: var(--regular);
-  font-weight: 400;
   padding-inline-start:  clamp(0.875rem, 0.5889rem + 1.2207vw, 1.6875rem);
   padding-block-end: 14px;
   font-size: clamp(1.75rem, 1.3099rem + 1.8779vw, 3rem);
@@ -533,7 +494,6 @@
 
 .projects-item__text {
   margin: 0;
-  font-size: 16px;
 }
 
 .projects-item__icon {
@@ -572,10 +532,8 @@
   margin-block-end: clamp(2.9375rem, 1.441rem + 6.385vw, 7.1875rem);
 }
 .recall__title {
-  font-family: var(--regular);
   padding-block-end: clamp(1.5625rem, 1.1884rem + 1.5962vw, 2.625rem);
   padding-inline-start: 6px;
-  font-weight: 400;
   font-size: clamp(1.75rem, 1.3099rem + 1.8779vw, 3rem);
   color: #212529;
 }
@@ -607,16 +565,11 @@
   flex-direction: column;
 }
 .recall__name {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: 18px;
   text-align: center;
   color: #212529;
 }
 .recall__text {
-  font-family: var(--regular);
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.4;
   padding-inline-end: 32px;
   padding-inline-start: 32px;
@@ -662,16 +615,11 @@
 }
 
 .order-project-block__title {
-  font-family: var(--regular);
-  font-weight: 400;
   font-size: clamp(1.75rem, 1.3099rem + 1.8779vw, 3rem);
   color: #000;
 }
 
 .order-project-block__subtitle {
-  font-family: var(--regular);
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.4;
   color: #000;
 }
@@ -692,14 +640,11 @@
 
 .order-form__label {
   display: block;
-  font-family: var(--regular);
-  font-size: 16px;
   color: #333;
 }
 
 .order-form__input {
   width: 95.5%;
-  font-size: 16px;
   border: none;
   border-bottom: 2px solid;
   outline: none;
@@ -709,8 +654,6 @@
   width: 176px;
   padding: 14px;
   margin-block-start: clamp(0.25rem, 0.184rem + 0.2817vw, 0.4375rem);
-  font-size: 16px;
-  font-family: var(--regular);
   color: #fff;
   background: #212529;
   border: none;
@@ -751,8 +694,6 @@
 
 
 .footer {
-  font-family: var(--regular);
-  font-weight: 400;
   color: #212529;
   display: flex;
   flex-wrap: wrap;
@@ -767,7 +708,6 @@
   padding-block-end: 14px;
 }
 .footer__politika {
-  font-size: 16px;
   text-align: center;
   line-height: 1.4;
 }
